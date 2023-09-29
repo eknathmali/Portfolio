@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eknath Mali Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/png" href="assests/My Pic.jpg">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Eknath Mali</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a> </li>
+                <li><a href="#experience">Experience</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Eknath Mali</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a> </li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a> </li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a> </li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a> </li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/My Pic.jpg" alt="eknath mali" style="border-radius: 50%;"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Eknath Mali</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="ben-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/Eknath Mali.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href = './#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assests/linkedin.png" alt="linkedin" class="icon"  onclick="window.open('https://www.linkedin.com/in/eknath-mali/')"/>
+                <img src="./assests/github.png" alt="linkedin" class="icon" onclick="window.open('https://github.com/eknathmali')"  />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assests/InFrame_1694921035783.jpg" alt="profile pic" class="about-pic"  />
+
+            </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="assests/experience.png" alt="experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1+ Years <br>Full Stack Developement</p>
+                </div>
+                <div class="details-container">
+                    <img src="assests/education.png" alt="education icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>Bachelors in <br>Computer Engineering <br>CGPA: 9.3</p>
+
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Hello! I'm Eknath Mali, a Full Stack Developer from Pune, India. I'm great at coding with C++, Python, and JavaScript. I build cool stuff using the <b>MERN</b> stack. I love puzzles and organizing things in code. I've worked as a Data Scientist intern.. I'm all about learning and growing in the tech world! 😊</p>
+            </div>
+        </div>
+        </div>
+        <img src="assests/arrow.png" alt="arrow img" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">FrontEnd Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>React</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">BackEnd Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>MongoDB</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>Express JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assests/checkmark.png" alt="checkmark image" class="icon">
+
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="assests/arrow.png" alt="arrow img" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recents</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="assests/inotebook.png" alt="Project-1" class="project-img inote">
+                </div>
+                <h2 class="experience-sub-title project-title">iNotebook</h2>
+                <p>A React application that allows users to securely maintain notes with the ability to add, update, and delete
+                    notes</p>
+                    <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/eknathmali/INotes', '_blank')">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/eknathmali/INotes', '_blank')">App Link</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="assests/project-1.png" alt="Project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Blog App</h2>
+                <p>A full stack Blog App enabling users to create an account where users can read, write & update the blogs.</p>
+                    <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/eknathmali/blogApp', '_blank')">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/eknathmali/blogApp', '_blank')">App Link</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img src="assests/filecompress.png" alt="Project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">File Compressor</h2>
+                <p>Complete DSA based App used to compressed the 40-45% file size using Huffman Algorithm</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/eknathmali/File-Compressor', '_blank')">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://file-compression.streamlit.app/', '_blank')">App Link</button>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="assests/arrow.png" alt="arrow img" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Conact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assests/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:malieknath135@gmail.com">malieknath135@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assests/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/eknath-mali/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assests/github.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://github.com/eknathmali">Github</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#experience">Experience</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Eknath Mali. All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
